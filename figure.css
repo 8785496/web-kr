@@ -1,0 +1,64 @@
+/* figure.css */
+.box {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.figure {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background: gray;
+  border-radius: 50%;
+}
+
+.figure .center {
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: #fef9e7;
+  transform: translate(-50%, -50%);
+}
+
+.figure .notch {
+  position: absolute;
+  top: 110px;
+  left: 260px;
+  width: 80px;
+  height: 80px;
+  background: #fef9e7;
+  border-radius: 50%;
+  transform-origin: -110px center;
+}
+
+.rotate45deg {
+  transform: rotate(45deg);
+}
+
+.rotate90deg {
+  transform: rotate(90deg);
+}
+
+.rotate135deg {
+  transform: rotate(135deg);
+}
+
+.rotate180deg {
+  transform: rotate(180deg);
+}
+
+.rotate225deg {
+  transform: rotate(225deg);
+}
+
+.rotate270deg {
+  transform: rotate(270deg);
+}
+
+.rotate315deg {
+  transform: rotate(315deg);
+}
