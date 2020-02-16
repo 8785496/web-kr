@@ -1,4 +1,4 @@
-<!-- page4.html -->
+<!-- page4.php -->
 <?php
 $answers = [
   "q1" => "2",

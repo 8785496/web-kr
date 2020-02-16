@@ -1,3 +1,4 @@
+// main.js
 (function() {
   const image = document.getElementById("image");
   const description = document.getElementById("description");

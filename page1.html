@@ -54,7 +54,9 @@
         </tr>
       </table>
 
-      <textarea>Города: Омск, Новосибирск, Томск</textarea>
+      <div class="row">
+        <textarea>Города: Омск, Новосибирск, Томск</textarea>
+      </div>
 
       <label><input type="radio" name="city" value="Омск" />Омск</label>
       <label
@@ -67,13 +69,22 @@
       >
       <label><input type="radio" name="city" value="Томск" />Томск</label>
 
-      <input type="password" value="12345" />
+      <div class="row">
+        <input type="password" value="12345" />
+      </div>
 
-      <select>
-        <option value="Омск">Омск</option>
-        <option value="Новосибирск">Новосибирск</option>
-        <option value="Томск">Томск</option>
-      </select>
+      <div class="row">
+        <select>
+          <option value="Омск">Омск</option>
+          <option value="Новосибирск">Новосибирск</option>
+          <option value="Томск">Томск</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <button>Отправить</button>
+        <button>Сбросить</button>
+      </div>
     </div>
   </body>
 </html>

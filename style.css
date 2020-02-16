@@ -4,6 +4,7 @@ body {
   padding: 0;
   margin: 0;
   background: #fef9e7;
+  background-image: url("/img/abstract-bg.jpg");
 }
 
 .container {
@@ -43,6 +44,42 @@ nav {
 
 .main-menu li.active {
   font-weight: bold;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-auto-rows: minmax(min-content, max-content);
+}
+
+.card {
+  border: 1px solid gray;
+  background: #ffffff;
+  padding-bottom: 15px;
+}
+
+.card img {
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+.card .card-title {
+  font-size: 14px;
+  margin: 10px 15px;
+}
+
+.card a {
+  text-transform: uppercase;
+  color: rgb(37, 97, 146);
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 15px;
+}
+
+.card a:hover {
+  opacity: 0.8;
 }
 
 table.table,
